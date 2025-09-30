@@ -1,0 +1,74 @@
+{
+  "results": [
+    {
+      "ticker": "A",
+      "name": "Agilent Technologies Inc.",
+      "market": "stocks",
+      "locale": "us",
+      "primary_exchange": "XNYS",
+      "type": "CS",
+      "active": true,
+      "currency_name": "usd",
+      "cik": "0001090872",
+      "composite_figi": "BBG000C2V3D6",
+      "share_class_figi": "BBG001SCTQY4",
+      "last_updated_utc": "2025-09-30T06:05:29.844698933Z"
+    },
+    {
+      "ticker": "AA",
+      "name": "Alcoa Corporation",
+      "market": "stocks",
+      "locale": "us",
+      "primary_exchange": "XNYS",
+      "type": "CS",
+      "active": true,
+      "currency_name": "usd",
+      "cik": "0001675149",
+      "composite_figi": "BBG00B3T3HD3",
+      "share_class_figi": "BBG00B3T3HF1",
+      "last_updated_utc": "2025-09-30T06:05:29.844699555Z"
+    },
+    {
+      "ticker": "AAA",
+      "name": "Alternative Access First Priority CLO Bond ETF",
+      "market": "stocks",
+      "locale": "us",
+      "primary_exchange": "ARCX",
+      "type": "ETF",
+      "active": true,
+      "currency_name": "usd",
+      "cik": "0001776878",
+      "composite_figi": "BBG01B0JRCS6",
+      "share_class_figi": "BBG01B0JRCT5",
+      "last_updated_utc": "2025-09-30T06:05:29.844699755Z"
+    },
+    {
+      "ticker": "AAAA",
+      "name": "Amplius Aggressive Asset Allocation ETF",
+      "market": "stocks",
+      "locale": "us",
+      "primary_exchange": "BATS",
+      "type": "ETF",
+      "active": true,
+      "currency_name": "usd",
+      "composite_figi": "BBG01W275XX6",
+      "share_class_figi": "BBG01W275ZB5",
+      "last_updated_utc": "2025-09-30T06:05:29.844699835Z"
+    },
+    {
+      "ticker": "AAAIF",
+      "name": "ALTERNATIVE INVSTMENT TR",
+      "market": "otc",
+      "locale": "us",
+      "primary_exchange": "OTC Link",
+      "type": "FUND",
+      "active": true,
+      "currency_name": "USD",
+      "last_updated_utc": "2025-07-01T07:00:02.257Z"
+    }
+  ],
+  "status": "OK",
+  "request_id": "0b864de69bb46787f17f16feb3499b44",
+  "count": 5,
+  "next_url": "https://api.polygon.io/v3/reference/tickers?cursor=YWN0aXZlPXRydWUmYXA9NSZhcz0mbGltaXQ9NSZzb3J0PXRpY2tlcg"
+}
