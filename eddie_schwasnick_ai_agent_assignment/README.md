@@ -25,13 +25,9 @@ This project implements an AI-powered data collection agent that interacts with 
 ## Repository Structure
 
 ├── README.md # Project overview and instructions (this file)
-
 ├── data_management_plan.pdf # Mini-DMP (Part 1)
-
 ├── agent/
-
 │ ├── data_collection_agent.py # Main agent class
-
 │ ├── config.json # Configuration (no real keys in repo)
 │ ├── data_collection.log # AI Agent run log
 │ ├── agent_output.json # output from agent
