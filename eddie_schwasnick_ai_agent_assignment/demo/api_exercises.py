@@ -95,3 +95,11 @@ with open("holidays.json", "w") as f:
 print("\n=== Summary of Holiday Counts ===")
 for country, holidays in all_data.items():
     print(f"{country}: {len(holidays)} holidays")
+
+    '''
+    I learned how to make API calls using requests in Python, how to write to JSON files, and how to handle errors and logging.
+    A learned that making multiple API calls in a loop is straightforward, and I can extract and format data as needed. Looping through
+    different countries as this example shows how easy it is to scale API calls for different parameters. I also learned that some APIs
+    take a parameterized URL structure, which is useful for customizing requests in order to get desired data. Overall, this what a great
+    exercise to understand the basics of working with APIs in Python. I'll definitely be using these techniques in future projects.
+    '''
