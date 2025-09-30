@@ -1,0 +1,24 @@
+{
+    "polygon_api_key": "LQWClUJaRXmqTtoRszE8YxTuCSgqcUol",
+    "base_url": "https://api.polygon.io",
+    "endpoint": "/v3/reference/tickers",
+    "params": {
+        "active": "true",
+        "limit": 100
+    },
+    "max_pages": 3,
+    "target_records": 250,
+    "base_delay": 1.0,
+    "retry": {
+        "tries": 3,
+        "backoff_seconds": 1.5
+    },
+    "required_fields": ["ticker", "name"],
+    "fields_to_keep": ["ticker", "name", "market", "locale", "primary_exchange"],
+    "dedupe_key_fields": ["ticker"],
+    "respect_rpm": 4,
+    "output": {
+        "json_path": "agent_output.json",
+        "log_path": "data_collection.log"
+  }
+}
