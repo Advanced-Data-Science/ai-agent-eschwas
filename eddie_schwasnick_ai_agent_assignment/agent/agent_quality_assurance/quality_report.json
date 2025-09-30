@@ -1,0 +1,39 @@
+{
+  "summary": {
+    "total_records": 150,
+    "collection_success_rate": 1.0,
+    "overall_quality_score": 1.0
+  },
+  "completeness_analysis": {
+    "locale": 1.0,
+    "market": 1.0,
+    "name": 1.0,
+    "primary_exchange": 1.0,
+    "ticker": 1.0
+  },
+  "data_distribution": {
+    "market": {
+      "otc": 87,
+      "stocks": 63
+    },
+    "locale": {
+      "us": 150
+    },
+    "primary_exchange": {
+      "OTC Link": 83,
+      "XNAS": 34,
+      "XNYS": 15,
+      "BATS": 11,
+      "Grey Market": 4,
+      "ARCX": 3
+    }
+  },
+  "anomaly_detection": {
+    "duplicate_tickers": [],
+    "invalid_ticker_chars": []
+  },
+  "recommendations": [
+    "Success rate is healthy; consider modestly increasing request rate.",
+    "Quality metrics look strong; consider enriching with additional fields."
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "collection_info": {
+    "collection_date": "2025-09-30T20:51:21.903157+00:00",
+    "agent_version": "1.0",
+    "collector": "YourName",
+    "total_records": 150
+  },
+  "data_sources": {
+    "provider": "Polygon.io",
+    "base_url": "https://api.polygon.io",
+    "endpoint": "/v3/reference/tickers",
+    "params": {
+      "active": "true",
+      "limit": 50
+    },
+    "apis_used": [
+      "polygon"
+    ]
+  },
+  "quality_metrics": {
+    "overall_quality_score": 1.0,
+    "completeness": 1.0,
+    "accuracy": 1.0,
+    "consistency": 1.0,
+    "timeliness": 1.0
+  },
+  "processing_history": [
+    "2025-09-30 14:23:39,082 - INFO - Initializing DataCollectionAgent",
+    "2025-09-30 14:23:39,082 - INFO - Starting data collection",
+    "2025-09-30 14:23:39,082 - WARNING - Switching to fallback endpoint (still Polygon) due to low success rate.",
+    "2025-09-30 14:23:39,082 - INFO - Strategy adjusted: delay_multiplier=2.00, success_rate=0.00, last_status=None",
+    "2025-09-30 14:23:39,287 - INFO - Stored 50 new records (total: 50)",
+    "2025-09-30 14:23:39,287 - INFO - Sleeping 33.33s (respectful delay)",
+    "2025-09-30 14:24:12,627 - INFO - Quality metrics: {'completeness': 1.0, 'accuracy': 1.0, 'consistency': 1.0, 'timeliness': 1.0} -> score=1.00",
+    "2025-09-30 14:24:12,859 - INFO - Stored 50 new records (total: 100)",
+    "2025-09-30 14:24:12,861 - INFO - Sleeping 32.65s (respectful delay)",
+    "2025-09-30 14:24:45,515 - INFO - Quality metrics: {'completeness': 1.0, 'accuracy': 1.0, 'consistency': 1.0, 'timeliness': 1.0} -> score=1.00",
+    "2025-09-30 14:24:45,733 - INFO - Stored 50 new records (total: 150)",
+    "2025-09-30 14:24:45,733 - INFO - Sleeping 22.87s (respectful delay)",
+    "2025-09-30 14:25:08,609 - INFO - Collection complete",
+    "2025-09-30 14:25:08,614 - INFO - Saved JSON: agent_output.json",
+    "2025-09-30 14:25:08,615 - INFO - Saved summary: agent_summary.json",
+    "2025-09-30 16:47:10,397 - INFO - Initializing DataCollectionAgent",
+    "2025-09-30 16:47:10,399 - INFO - Starting data collection",
+    "2025-09-30 16:47:10,400 - WARNING - Switching to fallback endpoint (still Polygon) due to low success rate.",
+    "2025-09-30 16:47:10,400 - INFO - Strategy adjusted: delay_multiplier=2.00, success_rate=0.00, last_status=None",
+    "2025-09-30 16:47:10,659 - INFO - Stored 50 new records (total: 50)",
+    "2025-09-30 16:47:10,659 - INFO - Sleeping 24.45s (respectful delay)",
+    "2025-09-30 16:47:35,205 - INFO - Quality metrics: {'completeness': 1.0, 'accuracy': 1.0, 'consistency': 1.0, 'timeliness': 1.0} -> score=1.00",
+    "2025-09-30 16:47:35,336 - INFO - Stored 50 new records (total: 100)",
+    "2025-09-30 16:47:35,336 - INFO - Sleeping 35.07s (respectful delay)",
+    "2025-09-30 16:48:10,409 - INFO - Quality metrics: {'completeness': 1.0, 'accuracy': 1.0, 'consistency': 1.0, 'timeliness': 1.0} -> score=1.00",
+    "2025-09-30 16:48:10,559 - INFO - Stored 50 new records (total: 150)",
+    "2025-09-30 16:48:10,560 - INFO - Sleeping 24.64s (respectful delay)",
+    "2025-09-30 16:48:35,209 - INFO - Collection complete",
+    "2025-09-30 16:48:35,218 - INFO - Saved JSON: agent_output.json",
+    "2025-09-30 16:48:35,219 - INFO - Saved summary: agent_summary.json",
+    "2025-09-30 16:49:47,453 - INFO - Initializing DataCollectionAgent",
+    "2025-09-30 16:49:47,454 - INFO - Starting data collection",
+    "2025-09-30 16:49:47,454 - WARNING - Switching to fallback endpoint (still Polygon) due to low success rate.",
+    "2025-09-30 16:49:47,454 - INFO - Strategy adjusted: delay_multiplier=2.00, success_rate=0.00, last_status=None",
+    "2025-09-30 16:49:47,746 - INFO - Stored 50 new records (total: 50)",
+    "2025-09-30 16:49:47,746 - INFO - Sleeping 37.60s (respectful delay)",
+    "2025-09-30 16:50:25,351 - INFO - Quality metrics: {'completeness': 1.0, 'accuracy': 1.0, 'consistency': 1.0, 'timeliness': 1.0} -> score=1.00",
+    "2025-09-30 16:50:25,490 - INFO - Stored 50 new records (total: 100)",
+    "2025-09-30 16:50:25,491 - INFO - Sleeping 30.66s (respectful delay)",
+    "2025-09-30 16:50:56,162 - INFO - Quality metrics: {'completeness': 1.0, 'accuracy': 1.0, 'consistency': 1.0, 'timeliness': 1.0} -> score=1.00",
+    "2025-09-30 16:50:56,293 - INFO - Stored 50 new records (total: 150)",
+    "2025-09-30 16:50:56,293 - INFO - Sleeping 25.60s (respectful delay)",
+    "2025-09-30 16:51:21,894 - INFO - Collection complete",
+    "2025-09-30 16:51:21,901 - INFO - Saved JSON: agent_output.json",
+    "2025-09-30 16:51:21,902 - INFO - Saved summary: agent_summary.json"
+  ],
+  "variables": [
+    {
+      "name": "ticker",
+      "type": "string",
+      "description": "Unique symbol for the listed security or instrument."
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "description": "Company or fund name associated with the ticker."
+    },
+    {
+      "name": "market",
+      "type": "string",
+      "description": "Market type (e.g., stocks, crypto, fx)."
+    },
+    {
+      "name": "locale",
+      "type": "string",
+      "description": "Geographic locale of the listing (e.g., us)."
+    },
+    {
+      "name": "primary_exchange",
+      "type": "string",
+      "description": "Primary exchange code where the instrument is listed."
+    }
+  ]
+}
